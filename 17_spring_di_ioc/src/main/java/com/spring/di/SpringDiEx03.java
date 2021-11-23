@@ -45,7 +45,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 */
 
 @Controller
-public class SpringDiEx3 {
+public class SpringDiEx03 {
 	
 	@Autowired
 	private ProductManagerEx1 pdMgrEx01;
