@@ -47,14 +47,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class SpringDiEx03 {
 	
-	@Autowired
+	@Autowired // @Inject
 	private ProductManagerEx1 pdMgrEx01;
 	
 	@RequestMapping(value="/springDiEx03" , method=RequestMethod.GET)
 	public String springDiEx03() {
 		
-		
-		
+		pdMgrEx01.printInfo();
 		return "home";
 	}
 }
